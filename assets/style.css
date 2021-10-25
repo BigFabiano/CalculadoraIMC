@@ -103,12 +103,10 @@ h1 {
   #dados > #cpeso {
     margin-left: 10px;
   }
-  /*#box1 > .sm {
-    width: 40%;
-    border: 1px solid #eee;
-    outline: 0;
-    background-color: cornflowerblue;
-  }*/
+  .cbt {
+    align-items: center;
+    justify-content: center;
+  }
 
   #box2 {
     height: 248px;
@@ -128,5 +126,6 @@ h1 {
   .radiobt {
     display: flex;
     align-items: center;
+    padding: 6px;
   }
 }
