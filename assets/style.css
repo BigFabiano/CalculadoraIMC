@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+span {
+  color: rgb(252, 250, 249);
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(41, 40, 40);
+}
+#box1 {
+  background-color: rgb(230, 245, 248);
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+#box2 {
+  background-color: rgb(230, 245, 248);
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+#box3 {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.pconfig {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(44, 43, 43);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  span {
+    color: rgb(231, 7, 26);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(3, 7, 65);
+  }
+  #dados {
+    display: flex;
+    flex-direction: column;
+  }
+  #dados > input[type="text"] {
+    width: 80%;
+    margin-left: 10px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+  #box1 > input[type="text"] {
+    width: 80%;
+    margin-left: 10px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+  .radiobt {
+    margin-top: 20px;
+  }
+  .cbt {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #box1 {
+    height: 248px;
+    background-color: gold;
+  }
+  #box1 > #sm {
+    width: 100%;
+    border: 1px solid #eee;
+    outline: 0;
+    border: 1px solid rgb(245, 230, 147);
+    padding: 4px;
+  }
+  #dados {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #dados > input[type="text"] {
+    width: 40%;
+    margin-left: 10px;
+    padding: 4px;
+    border: 1px solid rgb(245, 230, 147);
+  }
+  #dados > #cpeso {
+    margin-left: 10px;
+  }
+  /*#box1 > .sm {
+    width: 40%;
+    border: 1px solid #eee;
+    outline: 0;
+    background-color: cornflowerblue;
+  }*/
+
+  #box2 {
+    height: 248px;
+    background-color: #eee;
+  }
+  #box3 {
+    height: 90px;
+    background-color: #ccc;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(41, 40, 40);
+  }
+
+  .radiobt {
+    display: flex;
+    align-items: center;
+  }
+}

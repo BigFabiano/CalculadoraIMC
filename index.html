@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!--Container da pagina-->
+    <div class="container">
+      <!--Primeira linha-->
+      <div class="row">
+        <div class="col-sm-6">
+          <div id="box1">
+            <h1 class="text-center">Calculadora <span>IMC</span></h1>
+            <label class="pconfig" for="">Nome</label>
+            <input id="sm" type="text" />
+
+            <div id="dados">
+              <label class="pconfig" for="">Altura</label>
+              <input class="sm" type="text" />
+              <label id="cpeso" class="pconfig" for="">Peso</label>
+              <input class="sm" type="text" />
+            </div>
+
+            <!--conteudo radio-->
+            <div class="radiobt">
+              <div class="cradio">
+                <div class="form-check form-check-inline mt-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label pconfig" for="inlineRadio1"
+                    >Masculino</label
+                  >
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label pconfig" for="inlineRadio2"
+                    >Feminino</label
+                  >
+                </div>
+                <!--Fim cradio confi radios-->
+              </div>
+              <div class="cbt">
+                <button class="btn btn-danger">Calcular</button>
+              </div>
+              <!--radio em globa os raio e button-->
+            </div>
+
+            <!--fim radio-->
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div id="box2"></div>
+        </div>
+      </div>
+      <!--Primeira linha-->
+      <div class="row">
+        <!--Inicio segunda linha-->
+
+        <div class="col">
+          <div id="box3" class="alert alert-dark" role="alert"></div>
+        </div>
+      </div>
+      <!--Fim segunda linha-->
+    </div>
+    <!--Fechamento Container-->
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
