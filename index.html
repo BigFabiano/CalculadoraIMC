@@ -22,9 +22,9 @@
 
             <div id="dados">
               <label class="pconfig" for="">Altura</label>
-              <input class="sm" type="text" />
+              <input id="altura" class="sm" type="text" />
               <label id="cpeso" class="pconfig" for="">Peso</label>
-              <input class="sm" type="text" />
+              <input id="peso" class="sm" type="text" />
             </div>
 
             <!--conteudo radio-->
@@ -57,7 +57,9 @@
                 <!--Fim cradio confi radios-->
               </div>
               <div class="cbt">
-                <button class="btn btn-danger">Calcular</button>
+                <button onclick="mostrarError()" class="btn btn-danger">
+                  Calcular
+                </button>
               </div>
               <!--radio em globa os raio e button-->
             </div>
@@ -67,7 +69,7 @@
         </div>
 
         <div class="col-sm-6">
-          <div id="box2"></div>
+          <div id="box2"><h1>00</h1></div>
         </div>
       </div>
       <!--Primeira linha-->
@@ -75,7 +77,9 @@
         <!--Inicio segunda linha-->
 
         <div class="col">
-          <div id="box3" class="alert alert-dark" role="alert"></div>
+          <div id="box3" class="alert alert-dark" role="alert">
+            Acima do peso, CUIDADO!
+          </div>
         </div>
       </div>
       <!--Fim segunda linha-->

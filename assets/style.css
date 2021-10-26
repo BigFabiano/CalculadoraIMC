@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 span {
-  color: rgb(252, 250, 249);
+  color: rgb(219, 7, 78);
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -28,10 +28,39 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#box2 > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(114, 113, 113);
+  text-align: center;
+}
+#box2 > h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(20, 43, 145);
+  text-align: center;
+  display: inline !important;
+}
+#box2 > h2 {
+  display: inline !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(238, 92, 8);
+  text-align: center;
 }
 #box3 {
   height: 100px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pconfig {
   font-family: "Roboto", sans-serif;
@@ -46,6 +75,7 @@ h1 {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
   }
+
   h1 {
     font-family: "Roboto", sans-serif;
     font-size: 40px;
