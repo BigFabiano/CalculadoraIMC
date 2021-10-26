@@ -61,6 +61,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .pconfig {
   font-family: "Roboto", sans-serif;
@@ -75,8 +76,22 @@ h1 {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
   }
+  #box3 {
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
   h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(3, 7, 65);
+  }
+  h2 {
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -145,6 +160,13 @@ h1 {
   #box3 {
     height: 90px;
     background-color: #ccc;
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(41, 40, 40);
   }
   h1 {
     font-family: "Roboto", sans-serif;
