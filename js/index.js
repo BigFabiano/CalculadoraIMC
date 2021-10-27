@@ -8,7 +8,7 @@ function mostrarError(){
         swal(nome + " Número Invalido!", "Digite um número válido", "error");
     }else{
         document.querySelector('#box2').innerHTML = '<p> Seja bem vindo '+ '<span>' + nome +'</span>'+ '</p>' + '<p>' + 
-        'Conforme suas informações'+ '</p>' + '<h1>' +'<span>' +'Seu IMC: ' + '</span>' + imc.toFixed(2) +  '</h1>' ;
+        'Conforme suas informações'+ '</p>' + '<div class = "js">' +'<h1> Seu <span>IMC:  </span></h1>' + '  <h1> ' + imc.toFixed(2) + '</h1><h2>'+' Kg/m² '+ '</h2>'+ '</div> ' ;
        
     }if (imc < 17){
         document.querySelector('#box3').innerHTML = '<h2>' + '<span>' + 'Alerta! '+ '</span>' + ' Muito abaixo do peso' + '</h2>'

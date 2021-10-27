@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body,
+html {
+  height: 100%;
+}
+.conteudo-principal {
+  display: flex;
+  height: 100%;
+
+  flex-direction: row;
+  align-items: center;
+}
 
 span {
   color: rgb(219, 7, 78);
@@ -11,6 +22,13 @@ h1 {
   font-weight: 700;
   color: rgb(41, 40, 40);
 }
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(247, 7, 7);
+}
+
 #box1 {
   background-color: rgb(230, 245, 248);
   height: 400px;
@@ -69,6 +87,12 @@ h1 {
   color: rgb(44, 43, 43);
   font-weight: bold;
 }
+.js span h1,
+.js h2,
+.js h1 {
+  float: left;
+  padding: 0 10px;
+}
 
 @media screen and (min-width: 768px) {
   span {
@@ -93,9 +117,10 @@ h1 {
   }
   h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
-    color: rgb(3, 7, 65);
+    color: rgb(247, 7, 7);
+    margin-top: 20px;
   }
   #dados {
     display: flex;
@@ -161,6 +186,13 @@ h1 {
     height: 90px;
     background-color: #ccc;
     flex-wrap: wrap;
+  }
+  .js h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(247, 7, 7);
+    margin-top: 10px;
   }
   h2 {
     font-family: "Roboto", sans-serif;
